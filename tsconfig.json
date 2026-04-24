@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "erasableSyntaxOnly": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "types": ["node"]
+    },
+    "include": ["pull.ts"]
+}
