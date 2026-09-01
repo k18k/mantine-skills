@@ -90,6 +90,7 @@ For a single consolidated file with all content, use:
 ## Core
 
 - [Accordion](https://mantine.dev/llms/core-accordion.md): Divide content into collapsible sections
+- [ActionBar](https://mantine.dev/llms/core-action-bar.md): A fixed-position bottom bar for bulk selection actions
 - [ActionIcon](https://mantine.dev/llms/core-action-icon.md): Icon button
 - [Affix](https://mantine.dev/llms/core-affix.md): Renders children inside portal at fixed position
 - [Alert](https://mantine.dev/llms/core-alert.md): Attract user attention with important static message
@@ -108,6 +109,7 @@ For a single consolidated file with all content, use:
 - [Burger](https://mantine.dev/llms/core-burger.md): Open/close navigation button
 - [Button](https://mantine.dev/llms/core-button.md): Button component to render button or link
 - [Card](https://mantine.dev/llms/core-card.md): Card with sections
+- [Cascader](https://mantine.dev/llms/core-cascader.md): Select a path from hierarchical data with cascading columns
 - [Center](https://mantine.dev/llms/core-center.md): Centers content vertically and horizontally
 - [Checkbox](https://mantine.dev/llms/core-checkbox.md): Capture boolean input from user
 - [Chip](https://mantine.dev/llms/core-chip.md): Pick one or multiple values with inline controls
@@ -118,12 +120,15 @@ For a single consolidated file with all content, use:
 - [ColorPicker](https://mantine.dev/llms/core-color-picker.md): Pick colors in hex(a), rgb(a), hsl(a) and hsv(a) formats
 - [ColorSwatch](https://mantine.dev/llms/core-color-swatch.md): Displays color
 - [Combobox](https://mantine.dev/llms/core-combobox.md): Create custom select, autocomplete or multiselect inputs
+- [ComboboxPopover](https://mantine.dev/llms/core-combobox-popover.md): Add combobox dropdown to any button element
 - [Container](https://mantine.dev/llms/core-container.md): Center content with padding and max-width
 - [CopyButton](https://mantine.dev/llms/core-copy-button.md): Copies given text to clipboard
 - [CorePackage](https://mantine.dev/llms/core-package.md)
+- [DataList](https://mantine.dev/llms/core-data-list.md): Display label-value pairs as a description list
 - [Dialog](https://mantine.dev/llms/core-dialog.md): Display a fixed overlay dialog at any side of the screen
 - [Divider](https://mantine.dev/llms/core-divider.md): Horizontal line with optional label or vertical divider
 - [Drawer](https://mantine.dev/llms/core-drawer.md): Display overlay area at any side of the screen
+- [EmptyState](https://mantine.dev/llms/core-empty-state.md): Display a placeholder for no data, empty results and first-run states
 - [Fieldset](https://mantine.dev/llms/core-fieldset.md): Group related elements in a form
 - [FileButton](https://mantine.dev/llms/core-file-button.md): Open file picker with a button click
 - [FileInput](https://mantine.dev/llms/core-file-input.md): Capture files from user
@@ -148,6 +153,7 @@ For a single consolidated file with all content, use:
 - [Marquee](https://mantine.dev/llms/core-marquee.md): Create continuous scrolling animation for content
 - [MaskInput](https://mantine.dev/llms/core-mask-input.md): Input with mask pattern for formatted text entry
 - [Menu](https://mantine.dev/llms/core-menu.md): Combine a list of secondary actions into single interactive area
+- [Menubar](https://mantine.dev/llms/core-menubar.md): Desktop application style menubar with a row of menu triggers
 - [Modal](https://mantine.dev/llms/core-modal.md): An accessible overlay dialog
 - [MultiSelect](https://mantine.dev/llms/core-multi-select.md): Custom searchable multi select
 - [NativeSelect](https://mantine.dev/llms/core-native-select.md): Native select element based on Input
@@ -170,6 +176,7 @@ For a single consolidated file with all content, use:
 - [RangeSlider](https://mantine.dev/llms/core-range-slider.md): RangeSlider component
 - [Rating](https://mantine.dev/llms/core-rating.md): Pick and display rating
 - [RingProgress](https://mantine.dev/llms/core-ring-progress.md): Give user feedback for status of the task with circle diagram
+- [RollingNumber](https://mantine.dev/llms/core-rolling-number.md): Animate value changes with rolling digits
 - [ScrollArea](https://mantine.dev/llms/core-scroll-area.md): Area with custom scrollbars
 - [Scroller](https://mantine.dev/llms/core-scroller.md): Horizontal scroll container with navigation controls
 - [SegmentedControl](https://mantine.dev/llms/core-segmented-control.md): A linear set of two or more segments
@@ -179,6 +186,7 @@ For a single consolidated file with all content, use:
 - [Skeleton](https://mantine.dev/llms/core-skeleton.md): Indicate content loading state
 - [Slider](https://mantine.dev/llms/core-slider.md): Slider component
 - [Space](https://mantine.dev/llms/core-space.md): Add horizontal or vertical spacing from theme
+- [Splitter](https://mantine.dev/llms/core-splitter.md): Resizable split pane layout
 - [Spoiler](https://mantine.dev/llms/core-spoiler.md): Hide long sections of content under a spoiler
 - [Stack](https://mantine.dev/llms/core-stack.md): Compose elements and components in a vertical flex container
 - [Stepper](https://mantine.dev/llms/core-stepper.md): Display content divided into a steps sequence
@@ -196,6 +204,7 @@ For a single consolidated file with all content, use:
 - [Tooltip](https://mantine.dev/llms/core-tooltip.md): Renders tooltip at given element on mouse over or other event
 - [Transition](https://mantine.dev/llms/core-transition.md): Animate presence of component with pre-made animations
 - [Tree](https://mantine.dev/llms/core-tree.md): Display a Tree structure
+- [TreeSelect](https://mantine.dev/llms/core-tree-select.md): Select with hierarchical tree data
 - [Typography](https://mantine.dev/llms/core-typography.md): Styles provider for html content
 - [UnstyledButton](https://mantine.dev/llms/core-unstyled-button.md): Unstyled polymorphic button
 - [VisuallyHidden](https://mantine.dev/llms/core-visually-hidden.md): Hide element visually but keep it accessible for screen readers
@@ -216,6 +225,7 @@ For a single consolidated file with all content, use:
 - [useDisclosure](https://mantine.dev/llms/hooks-use-disclosure.md)
 - [useDocumentTitle](https://mantine.dev/llms/hooks-use-document-title.md)
 - [useDocumentVisibility](https://mantine.dev/llms/hooks-use-document-visibility.md)
+- [useDrag](https://mantine.dev/llms/hooks-use-drag.md)
 - [useEventListener](https://mantine.dev/llms/hooks-use-event-listener.md)
 - [useEyeDropper](https://mantine.dev/llms/hooks-use-eye-dropper.md)
 - [useFavicon](https://mantine.dev/llms/hooks-use-favicon.md)
@@ -270,6 +280,7 @@ For a single consolidated file with all content, use:
 - [useSet](https://mantine.dev/llms/hooks-use-set.md)
 - [useSetState](https://mantine.dev/llms/hooks-use-set-state.md)
 - [useShallowEffect](https://mantine.dev/llms/hooks-use-shallow-effect.md)
+- [useSplitter](https://mantine.dev/llms/hooks-use-splitter.md)
 - [useStateHistory](https://mantine.dev/llms/hooks-use-state-history.md)
 - [useTextSelection](https://mantine.dev/llms/hooks-use-text-selection.md)
 - [useThrottledCallback](https://mantine.dev/llms/hooks-use-throttled-callback.md)
@@ -310,6 +321,7 @@ For a single consolidated file with all content, use:
 - [DatePickerInput](https://mantine.dev/llms/dates-date-picker-input.md): Date, multiple dates and dates range picker input
 - [DateTimePicker](https://mantine.dev/llms/dates-date-time-picker.md): Capture datetime from the user
 - [GettingStartedDates](https://mantine.dev/llms/dates-getting-started.md)
+- [InlineDateTimePicker](https://mantine.dev/llms/dates-inline-date-time-picker.md): Inline date and time picker with range support
 - [MiniCalendar](https://mantine.dev/llms/dates-mini-calendar.md): Compact calendar to display a small number of days in a row
 - [MonthPicker](https://mantine.dev/llms/dates-month-picker.md): Inline month, multiple months and months range picker
 - [MonthPickerInput](https://mantine.dev/llms/dates-month-picker-input.md): Month, multiple months and months range picker input
@@ -326,27 +338,40 @@ For a single consolidated file with all content, use:
 - [BarChart](https://mantine.dev/llms/charts-bar-chart.md): Bar chart component with stacked and percent variants
 - [BarsList](https://mantine.dev/llms/charts-bars-list.md): Display a list of bars with names and values
 - [BubbleChart](https://mantine.dev/llms/charts-bubble-chart.md): Bubble chart component
+- [BulletChart](https://mantine.dev/llms/charts-bullet-chart.md): Compact KPI chart with value, target, and qualitative ranges
+- [CandlestickChart](https://mantine.dev/llms/charts-candlestick-chart.md): Financial OHLC candlestick chart
 - [CompositeChart](https://mantine.dev/llms/charts-composite-chart.md): Composed chart with support for Area, Bar and Line charts
 - [DonutChart](https://mantine.dev/llms/charts-donut-chart.md): Donut chart component
 - [FunnelChart](https://mantine.dev/llms/charts-funnel-chart.md): Funnel chart component
+- [GaugeChart](https://mantine.dev/llms/charts-gauge-chart.md): Radial gauge chart for KPI and status display
 - [GettingStartedCharts](https://mantine.dev/llms/charts-getting-started.md)
 - [Heatmap](https://mantine.dev/llms/charts-heatmap.md): Heatmap chart component
 - [LineChart](https://mantine.dev/llms/charts-line-chart.md): Line chart component
+- [MatrixChart](https://mantine.dev/llms/charts-matrix-chart.md): Generic x/y heatmap with categorical axes
 - [PieChart](https://mantine.dev/llms/charts-pie-chart.md): Pie chart component
 - [RadarChart](https://mantine.dev/llms/charts-radar-chart.md): Radar chart component
 - [RadialBarChart](https://mantine.dev/llms/charts-radial-bar-chart.md): Radial bar chart component
+- [SankeyChart](https://mantine.dev/llms/charts-sankey-chart.md): Sankey diagram component
 - [ScatterChart](https://mantine.dev/llms/charts-scatter-chart.md): Scatter chart component
 - [Sparkline](https://mantine.dev/llms/charts-sparkline.md): Simplified area chart to show trends
+- [SunburstChart](https://mantine.dev/llms/charts-sunburst-chart.md): Sunburst chart component for hierarchical data
 - [Treemap](https://mantine.dev/llms/charts-treemap.md): Treemap chart component
+- [WaffleChart](https://mantine.dev/llms/charts-waffle-chart.md): Part-to-whole grid chart with colored cells
 
 ## Schedule
 
+- [AgendaView](https://mantine.dev/llms/schedule-agenda-view.md): Vertical list view of events grouped by date
 - [DayView](https://mantine.dev/llms/schedule-day-view.md): Standalone schedule day view component
 - [GettingStartedSchedule](https://mantine.dev/llms/schedule-getting-started.md)
 - [MobileMonthView](https://mantine.dev/llms/schedule-mobile-month-view.md): Mobile-optimized schedule month view component
 - [MonthView](https://mantine.dev/llms/schedule-month-view.md): Standalone schedule month view component
 - [RecurringEventsSchedule](https://mantine.dev/llms/schedule-recurring-events.md)
+- [ResourcesDayView](https://mantine.dev/llms/schedule-resources-day-view.md): Day view with resource columns for scheduling across resources
+- [ResourcesMonthView](https://mantine.dev/llms/schedule-resources-month-view.md): Month view with resource lanes for scheduling across resources
+- [ResourcesSchedule](https://mantine.dev/llms/schedule-resources-schedule.md): Schedule wrapper component that combines resource day, week and month views
+- [ResourcesWeekView](https://mantine.dev/llms/schedule-resources-week-view.md): Week view with resource rows for scheduling across resources
 - [Schedule](https://mantine.dev/llms/schedule-schedule.md): Schedule component with day, week, month and year views
+- [ScheduleEventsData](https://mantine.dev/llms/schedule-events-data.md)
 - [WeekView](https://mantine.dev/llms/schedule-week-view.md): Standalone schedule week view component
 - [YearView](https://mantine.dev/llms/schedule-year-view.md): Standalone schedule year view component
 
@@ -413,6 +438,7 @@ For a single consolidated file with all content, use:
 - [CodeHighlight](https://mantine.dev/llms/x-code-highlight.md): Highlight code with shiki or highlight.js
 - [Dropzone](https://mantine.dev/llms/x-dropzone.md): Capture files from user with drag and drop
 - [ExtensionsPackage](https://mantine.dev/llms/x-extensions.md)
+- [Lightbox](https://mantine.dev/llms/x-lightbox.md): Full-screen media lightbox with carousel navigation
 - [Modals manager](https://mantine.dev/llms/x-modals.md): Centralized modals manager with option to handle state of multi-step modals
 - [NavigationProgress](https://mantine.dev/llms/x-nprogress.md): Navigation progress bar
 - [Notifications system](https://mantine.dev/llms/x-notifications.md): Mantine notifications system
@@ -448,9 +474,14 @@ For a single consolidated file with all content, use:
 - [Changelog830](https://mantine.dev/llms/changelog-8-3-0.md)
 - [Changelog900](https://mantine.dev/llms/changelog-9-0-0.md)
 - [Changelog910](https://mantine.dev/llms/changelog-9-1-0.md)
+- [Changelog920](https://mantine.dev/llms/changelog-9-2-0.md)
+- [Changelog930](https://mantine.dev/llms/changelog-9-3-0.md)
+- [Changelog940](https://mantine.dev/llms/changelog-9-4-0.md)
+- [Changelog950](https://mantine.dev/llms/changelog-9-5-0.md)
+- [Changelog960](https://mantine.dev/llms/changelog-9-6-0.md)
 - [Contribute](https://mantine.dev/llms/contribute.md)
-- [EslintConfig](https://mantine.dev/llms/eslint-config-mantine.md)
 - [GettingStarted](https://mantine.dev/llms/getting-started.md)
 - [NotFound](https://mantine.dev/llms/404.md)
+- [OxcConfig](https://mantine.dev/llms/oxc-config-mantine.md)
 - [PreviousChangelogs](https://mantine.dev/llms/changelog-previous-versions.md)
 - [Support](https://mantine.dev/llms/support.md)
